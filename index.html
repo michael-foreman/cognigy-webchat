@@ -3,11 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <title>Cognigy Webchat</title>
+
+  <!-- Load the webchat script -->
   <script src="https://github.com/Cognigy/Webchat/releases/latest/download/webchat.js"></script>
 </head>
 <body>
+  <!-- Optional: a loading message or placeholder -->
+  <p>Loading chat...</p>
+
   <script>
-    initWebchat("https://endpoint-trial.cognigy.ai/031b2bf948008f4a6cc45ebe26f08c8b831f66b80a9839f33c1b22e4b9f106bb");
+    // Initialize the Cognigy Webchat
+    initWebchat(
+      "https://endpoint-trial.cognigy.ai/031b2bf948008f4a6cc45ebe26f08c8b831f66b80a9839f33c1b22e4b9f106bb"
+    );
   </script>
 </body>
 </html>
